@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body{background-color: rgb(128, 223, 191);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+h1{color: black;
+
+}
+h2{color: rgb(182, 114, 12);
+
+}
+
+h1#principal{text-align: center;
+  
+
+}
+
+.basico{color: rgb(66, 78, 59);
+    font-weight: bolder;
+
+}
+.destaque{background-color: blueviolet;
+
+}
