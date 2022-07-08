@@ -6,14 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>alinhamento vertical</title>
     <style>
-        id#container{
+        #container{
+            position: relative;
             height: 500px;
+            padding: 10px;
             background-color: blueviolet;
         }
 
-        id#conteudo{
+        #conteudo{
+            position: absolute;
             height: 300px;
+            width: 300px;
             background-color: violet;
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
