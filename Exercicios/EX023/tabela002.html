@@ -1,0 +1,78 @@
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas grandes</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            
+            border-collapse: collapse;
+            margin: auto;
+            min-width: 96vw;
+        }
+
+        td, th {
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        th { 
+            font-variant: small-caps;
+        }
+
+        thead { 
+            background-color: brown;
+            color: rgb(223, 148, 37);
+        }
+
+        tfoot {
+            font-weight: bolder;
+            background-color: brown;
+            color: rgb(223, 148, 37);
+        }
+    </style>
+</head>
+<body>
+    <h1>tabelota grande</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Personagem</th>
+                <th>Cores</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Goku</td>
+                <td>Laranja</td>
+            </tr>
+            <tr>
+                <td>Vegeta</td>
+                <td>Lilas</td>
+            </tr>
+            <tr>
+                <td>Nappa</td>
+                <td>Marrom</td>
+            </tr>
+            <tr>
+                <td>Turles</td>
+                <td>Cinza</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Cores</th>
+                <td>4</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
