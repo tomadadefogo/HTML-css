@@ -17,11 +17,17 @@
             border-collapse: collapse;
             margin: auto;
             min-width: 96vw;
+            position: relative;
         }
+
 
         td, th {
             border: 2px solid black;
             padding: 10px;
+        }
+
+        td {
+            background-color: wheat;
         }
 
         th { 
@@ -31,12 +37,23 @@
         thead { 
             background-color: brown;
             color: rgb(223, 148, 37);
+            
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: brown
         }
 
         tfoot {
             font-weight: bolder;
             background-color: brown;
             color: rgb(223, 148, 37);
+        }
+
+        .pe {
+            background-color: brown;
         }
     </style>
 </head>
@@ -66,11 +83,59 @@
                 <td>Turles</td>
                 <td>Cinza</td>
             </tr>
+            <tr>
+                <td>Goku</td>
+                <td>Laranja</td>
+            </tr>
+            <tr>
+                <td>Vegeta</td>
+                <td>Lilas</td>
+            </tr>
+            <tr>
+                <td>Nappa</td>
+                <td>Marrom</td>
+            </tr>
+            <tr>
+                <td>Turles</td>
+                <td>Cinza</td>
+            </tr>
+            <tr>
+                <td>Goku</td>
+                <td>Laranja</td>
+            </tr>
+            <tr>
+                <td>Vegeta</td>
+                <td>Lilas</td>
+            </tr>
+            <tr>
+                <td>Nappa</td>
+                <td>Marrom</td>
+            </tr>
+            <tr>
+                <td>Turles</td>
+                <td>Cinza</td>
+            </tr>
+            <tr>
+                <td>Goku</td>
+                <td>Laranja</td>
+            </tr>
+            <tr>
+                <td>Vegeta</td>
+                <td>Lilas</td>
+            </tr>
+            <tr>
+                <td>Nappa</td>
+                <td>Marrom</td>
+            </tr>
+            <tr>
+                <td>Turles</td>
+                <td>Cinza</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
                 <th>Total de Cores</th>
-                <td>4</td>
+                <td class="pe">4</td>
             </tr>
         </tfoot>
     </table>
