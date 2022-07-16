@@ -1,0 +1,31 @@
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Criando forms</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+    <p>
+        <label for="iuser">Usuarui:</label>
+        <input type="text" name="usu" id="iusu" minlength="10" size="30" required autocomplete="username" placeholder="Digite seu Usuario">
+    </p>
+    <p>
+        <label for="isenha">Senha:</label>
+        <input type="password" name="senha" id="isenha" minlength="8" size="30" required autocomplete="current-password" placeholder="digite a sua senha aqui">
+    </p>
+    <p>
+        <label for="imes">Periodo Letivo:</label>
+        <input type="month" name="mes" id="mes" value="2022-07">
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="limpar">
+    </p>
+</form>
+
+</body>
+</html>
